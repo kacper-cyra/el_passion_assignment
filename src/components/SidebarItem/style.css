@@ -4,13 +4,16 @@
   display: flex;
   padding: 15px 17px;
   align-items: center;
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .sidebar__item:hover {
   background-color: #292a48;
 }
 
-.sidebar__item:active {
+.sidebar__item--active {
   background-color: #292a48;
 }
 

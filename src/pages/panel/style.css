@@ -1,5 +1,8 @@
 .panel {
   display: flex;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .panel-container {

@@ -7,7 +7,7 @@ export function Sidebar() {
   return (
     <aside className="sidebar">
       <SystemPanel />
-      <SidebarItem title="All" numberOfIssues="12">
+      <SidebarItem title="All" numberOfIssues="12" active={true}>
         <Github fill="#fff" />
       </SidebarItem>
       <SidebarItem title="Open" numberOfIssues="4">
