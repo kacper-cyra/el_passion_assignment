@@ -1,12 +1,23 @@
 .sidebar__item {
   width: 150px;
   height: 50px;
+  display: flex;
+  padding: 15px 17px;
+  align-items: center;
+}
+
+.sidebar__item:hover {
+  background-color: #292a48;
+}
+
+.sidebar__item:active {
   background-color: #292a48;
 }
 
 .sidebar__item__icon {
   height: 16px;
   width: 16px;
+  margin-right: 9px;
 }
 
 .sidebar__item__title {
@@ -18,6 +29,6 @@
   font-family: "ProximaNova";
   font-size: 14pt;
   color: #8a8995;
+  text-align: right;
+  width: 100%;
 }
-
-/* Roboto */

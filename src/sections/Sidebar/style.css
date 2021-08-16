@@ -1,4 +1,8 @@
 .sidebar {
   width: 150px;
   height: 500px;
+  background-color: rgba(16, 16, 34, 0.9);
+  position: relative;
+  z-index: 3;
+  backdrop-filter: blur(4px);
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { SidebarItem, SystemPanel } from "../../components";
 import { Closed, Github, Open } from "../../components/Icons";
+import "./style.css";
 
 export function Sidebar() {
   return (
