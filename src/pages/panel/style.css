@@ -1,0 +1,13 @@
+.panel {
+  display: flex;
+}
+
+.panel-container {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/images/background.jpg");
+  background-position: center;
+}

@@ -1,0 +1,10 @@
+.issue-group {
+  margin: 0px 20px 0px 15px;
+  text-align: left;
+}
+
+.issue-group__date {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #8a8995;
+}

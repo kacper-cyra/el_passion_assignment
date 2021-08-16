@@ -1,0 +1,43 @@
+.issue {
+  background-color: #fff;
+  text-align: left;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 465px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  border-width: 1px;
+  border-color: rgb(224, 224, 224);
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.issue__title {
+  font-size: 15px;
+  color: #080606;
+}
+
+.issue:nth-child(2) {
+  margin-top: 10px;
+}
+
+.issue:last-child {
+  margin-bottom: 10px;
+}
+
+.issue__button {
+  border: 0;
+  background: transparent;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0px;
+  margin-left: auto;
+}
+
+.issue__button__star {
+  width: 15px;
+  height: 14px;
+  margin-left: auto;
+}
