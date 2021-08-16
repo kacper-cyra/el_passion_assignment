@@ -1,0 +1,26 @@
+.system-panel {
+  width: 150px;
+  height: 40px;
+  padding: 16px 15px 14px 15px;
+  background-color: #101022;
+  display: flex;
+}
+
+.system-panel__button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.system-panel__button--close {
+  background-color: #ff594f;
+}
+
+.system-panel__button--minimize {
+  background-color: #ffbc1b;
+}
+
+.system-panel__button--maximize {
+  background-color: #00cd46;
+}
