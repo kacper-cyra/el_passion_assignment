@@ -8,13 +8,13 @@ export function Sidebar() {
     <aside className="sidebar">
       <SystemPanel />
       <SidebarItem title="All" numberOfIssues="12">
-        <Github />
+        <Github fill="#fff" />
       </SidebarItem>
       <SidebarItem title="Open" numberOfIssues="4">
-        <Open />
+        <Open fill="#fff" />
       </SidebarItem>
       <SidebarItem title="Closed" numberOfIssues="8">
-        <Closed />
+        <Closed fill="#fff" />
       </SidebarItem>
     </aside>
   );

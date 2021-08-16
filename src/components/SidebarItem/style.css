@@ -21,13 +21,13 @@
 }
 
 .sidebar__item__title {
-  font-size: 14pt;
+  font-size: 14px;
   color: #fff;
 }
 
 .sidebar__item__number {
-  font-family: "ProximaNova";
-  font-size: 14pt;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
   color: #8a8995;
   text-align: right;
   width: 100%;
