@@ -1,6 +1,6 @@
 import React from "react";
-import star from "../../assets/icons/icon-star.svg";
+import { ReactComponent as StarIcon } from "../../assets/icons/icon-star.svg";
 
-export function Star() {
-  return <img src={star} alt="star" />;
+export function Star({ fill }) {
+  return <StarIcon fill={fill} alt="star" />;
 }

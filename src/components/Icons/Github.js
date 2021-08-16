@@ -1,6 +1,6 @@
 import React from "react";
-import github from "../../assets/icons/icon-github.svg";
+import { ReactComponent as GithubIcon } from "../../assets/icons/icon-github.svg";
 
-export function Github() {
-  return <img src={github} alt="Github" />;
+export function Github(fill) {
+  return <GithubIcon fill="fill" alt="Github" />;
 }

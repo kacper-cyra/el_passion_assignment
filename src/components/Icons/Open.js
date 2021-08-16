@@ -1,6 +1,6 @@
 import React from "react";
-import open from "../../assets/icons/icon-open-issue.svg";
+import { ReactComponent as OpenIcon } from "../../assets/icons/icon-open-issue.svg";
 
-export function Open() {
-  return <img src={open} alt="Open" />;
+export function Open({ fill }) {
+  return <OpenIcon fill={fill} alt="Open" />;
 }
