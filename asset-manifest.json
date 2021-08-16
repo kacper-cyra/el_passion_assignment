@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/el_passion_assignment/static/css/main.9fba9490.chunk.css",
+    "main.js": "/el_passion_assignment/static/js/main.5bfd2df1.chunk.js",
+    "main.js.map": "/el_passion_assignment/static/js/main.5bfd2df1.chunk.js.map",
+    "runtime-main.js": "/el_passion_assignment/static/js/runtime-main.be5b7c3a.js",
+    "runtime-main.js.map": "/el_passion_assignment/static/js/runtime-main.be5b7c3a.js.map",
+    "static/js/2.1a81b9c4.chunk.js": "/el_passion_assignment/static/js/2.1a81b9c4.chunk.js",
+    "static/js/2.1a81b9c4.chunk.js.map": "/el_passion_assignment/static/js/2.1a81b9c4.chunk.js.map",
+    "static/js/3.51ee8618.chunk.js": "/el_passion_assignment/static/js/3.51ee8618.chunk.js",
+    "static/js/3.51ee8618.chunk.js.map": "/el_passion_assignment/static/js/3.51ee8618.chunk.js.map",
+    "index.html": "/el_passion_assignment/index.html",
+    "static/css/main.9fba9490.chunk.css.map": "/el_passion_assignment/static/css/main.9fba9490.chunk.css.map",
+    "static/js/2.1a81b9c4.chunk.js.LICENSE.txt": "/el_passion_assignment/static/js/2.1a81b9c4.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/el_passion_assignment/static/media/background.0f70c6b9.jpg",
+    "static/media/icon-closed-issue.2fb3fd80.svg": "/el_passion_assignment/static/media/icon-closed-issue.2fb3fd80.svg",
+    "static/media/icon-github.1390c31e.svg": "/el_passion_assignment/static/media/icon-github.1390c31e.svg",
+    "static/media/icon-open-issue.5dd09465.svg": "/el_passion_assignment/static/media/icon-open-issue.5dd09465.svg",
+    "static/media/icon-star.6a3b0f1e.svg": "/el_passion_assignment/static/media/icon-star.6a3b0f1e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be5b7c3a.js",
+    "static/js/2.1a81b9c4.chunk.js",
+    "static/css/main.9fba9490.chunk.css",
+    "static/js/main.5bfd2df1.chunk.js"
+  ]
+}
