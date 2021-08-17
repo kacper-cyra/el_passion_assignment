@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-export function SystemPanel() {
+export const SystemPanel = () => {
   return (
     <nav className="system-panel">
       <div className="system-panel__button system-panel__button--close"></div>
@@ -9,4 +9,4 @@ export function SystemPanel() {
       <div className="system-panel__button system-panel__button--maximize"></div>
     </nav>
   );
-}
+};

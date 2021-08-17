@@ -12,11 +12,18 @@ const contentData = [
   },
   {
     date: "18-07-2016",
-    issues: [{ title: "Visual UI Update Review" }, { title: "Sidebar changes" }],
+    issues: [
+      { title: "Visual UI Update Review", isMarked: false },
+      { title: "Sidebar changes", isMarked: false },
+    ],
   },
   {
     date: "15-07-2016",
-    issues: [{ title: "Crash update" }, { title: "Page visual UI Update Review", isMarked: true }, { title: "Sidebar update" }],
+    issues: [
+      { title: "Crash update", isMarked: false },
+      { title: "Page visual UI Update Review", isMarked: true },
+      { title: "Sidebar update", isMarked: false },
+    ],
   },
   {
     date: "14-07-2016",

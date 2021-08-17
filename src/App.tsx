@@ -1,5 +1,5 @@
 import "./App.css";
-import { Panel } from "./pages";
+import { Panel } from "./pages/panel";
 
 function App() {
   return (

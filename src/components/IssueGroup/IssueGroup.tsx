@@ -1,10 +1,13 @@
 import React from "react";
-import { Issue } from "../Issue/Issue";
+import { Issue, IssueProps } from "../Issue/Issue";
 import "./style.css";
 
-// 'issues' is an array of issue
+export interface IssueGroupProps {
+  date: string;
+  issues: IssueProps[];
+}
 
-export const IssueGroup = ({ date, issues }) => {
+export const IssueGroup = ({ date, issues }: IssueGroupProps) => {
   return (
     <div className="issue-group">
       <span className="issue-group__date">{date}</span>
