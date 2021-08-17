@@ -17,7 +17,7 @@ export const Issue = ({ title, isMarked: isMarkedProp }: IssueProps) => {
   return (
     <div className="issue">
       <span className="issue__title">{title}</span>
-      <button className="issue__button" onClick={handleClick}>
+      <button className="issue__button" onClick={handleClick} aria-label={isMarked ? "Unstar this issue" : "Star this issue"}>
         <Star className="issue__button__star" stroke="#E0E0E0" strokeWidth="0.75px" fill={isMarked ? "#21233d" : "#fff"} />
       </button>
     </div>
