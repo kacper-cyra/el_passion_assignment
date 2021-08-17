@@ -19,11 +19,11 @@
 }
 
 .issue:nth-child(2) {
-  margin-top: 10px;
+  margin-top: 6px;
 }
 
 .issue:last-child {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .issue__button {
@@ -39,5 +39,4 @@
 .issue__button__star {
   width: 15px;
   height: 14px;
-  margin-left: auto;
 }
